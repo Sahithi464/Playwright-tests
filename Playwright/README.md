@@ -9,8 +9,9 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 1. Create a new folder.
 2. Clone the project into the folder.
 
-git clone <repository-url>
-cd <project-folder>
+git clone "repository-url"  
+
+cd "project-folder"
 
 
 ## Step 3: Open the project in VSCode 
