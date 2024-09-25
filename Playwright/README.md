@@ -22,16 +22,22 @@ Here all our 3 scenarios are present in swaglabs.spec.ts class
 
 
 ## Running tests in headless mode by running below command 
-**Windows:**
-set HEADLESS=true && npx playwright test swaglabs.spec.ts
-**Powershell:**
-$env:HEADLESS='true'; npx playwright test swaglabs.spec.ts
+**Windows:**  
 
-###N ote: Html Report is generated in playwright-report folder 
+set HEADLESS=true && npx playwright test swaglabs.spec.ts  
 
-To view the latest report run "  npx playwright show-report"
+**Powershell:**  
 
-Running tests in different browser by overriding in command line
+$env:HEADLESS='true'; npx playwright test swaglabs.spec.ts  
+
+## To view the latest report run below command
+"  npx playwright show-report"
+
+Note: Html Report is generated in playwright-report folder 
+
+
+## Running tests in different browser by overriding in command line   
+
 "npx playwright test swaglabs.spec.ts --project=<browsername>" 
 
 
